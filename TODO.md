@@ -1,6 +1,6 @@
 # TODO
 
-- [ ] Create and link project to repo
+- [x] Create and link project to repo
 - [ ] Set up basic folder structure
 - [ ] Generate C# required files for the Pi
 - [ ] Create Workflow
