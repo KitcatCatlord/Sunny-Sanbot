@@ -1,7 +1,7 @@
 # TODO
 
 - [x] Create and link project to repo
-- [ ] Set up basic folder structure (#2)
+- [ ] #2 Set up basic folder structure
 - [ ] Generate C# required files for the Pi
 - [ ] Create Workflow
   - [ ] Check linting / formatting
