@@ -1,0 +1,65 @@
+# Generated with Github Copilot based on spec from Docs/TODO.md
+
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  release:
+    types: [created]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Lint Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Python dependencies
+        run: |
+          pip install -r Server/requirements.txt
+      - name: Lint Python code
+        run: |
+          pip install black
+          black --check Server/src/
+
+      # Build C#
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Build C# project
+        run: dotnet build Pi/src/SunnySanbotPi.csproj --configuration Release
+
+      # Placeholder for tests
+      - name: Run tests (placeholder)
+        run: echo "No tests yet"
+
+      # Check dependencies (Python)
+      - name: Check outdated Python packages
+        run: pip list --outdated
+
+      # Check dependencies (C#)
+      - name: Check outdated .NET packages
+        run: dotnet list Pi/src/SunnySanbotPi.csproj package --outdated
+
+      # Generate docs (placeholder)
+      - name: Generate docs (placeholder)
+        run: echo "Docs generation not implemented"
+
+  release:
+    if: github.event_name == 'release'
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Release step (placeholder)
+        run: echo "Release automation goes here"
