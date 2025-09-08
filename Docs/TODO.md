@@ -1,5 +1,6 @@
 # TODO
 
+# Setup
 - [x] Create and link project to repo
 - [x] Set up basic folder structure
 - [x] Generate C# required files for the Pi
@@ -10,4 +11,13 @@
   - [x] Automatically release when a version is tagged
   - [x] Check dependencies
   - [x] Generate docs
-- [ ] Start linking all future TODO checkboxes to issues
+- [x] Start linking all future TODO checkboxes to issues
+
+# Pi
+
+...
+
+
+# Server
+
+...
