@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pi", "Pi", "{92F9EBBD-43D0-14EC-14DB-32E1026C4A96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunnySanbotPi", "Pi\src\SunnySanbotPi.csproj", "{BD7A7ED5-21B2-DA90-487B-A7E9EA26228D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD7A7ED5-21B2-DA90-487B-A7E9EA26228D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD7A7ED5-21B2-DA90-487B-A7E9EA26228D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD7A7ED5-21B2-DA90-487B-A7E9EA26228D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD7A7ED5-21B2-DA90-487B-A7E9EA26228D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD7A7ED5-21B2-DA90-487B-A7E9EA26228D} = {92F9EBBD-43D0-14EC-14DB-32E1026C4A96}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E01752B-A479-4B0F-8228-94B6B595257C}
+	EndGlobalSection
+EndGlobal
