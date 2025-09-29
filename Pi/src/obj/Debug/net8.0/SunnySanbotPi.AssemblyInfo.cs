@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SunnySanbotPi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b48ee20381cc6801e3bf99622611c9f8e82ee828")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d864c0a2937184a4a8934f393e269e270fc6097")]
 [assembly: System.Reflection.AssemblyProductAttribute("SunnySanbotPi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SunnySanbotPi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

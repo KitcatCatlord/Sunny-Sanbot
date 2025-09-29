@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "UA3KyjglJGEJ8Q8Vlp2il0j4Al/YquLT0ZiRt8QqUqQkNf3Tj9qYnftVWp0wAGCIxTq0TgBCR8qF0keId3NAPg==",
+  "dgSpecHash": "g4vhqzPhShQ=",
   "success": true,
   "projectFilePath": "/Users/kianconti/Sunny-Sanbot/Pi/src/SunnySanbotPi.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/kianconti/.nuget/packages/microsoft.netcore.app.ref/8.0.20/microsoft.netcore.app.ref.8.0.20.nupkg.sha512",
+    "/Users/kianconti/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.20/microsoft.aspnetcore.app.ref.8.0.20.nupkg.sha512",
+    "/Users/kianconti/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.20/microsoft.netcore.app.host.osx-arm64.8.0.20.nupkg.sha512"
+  ],
   "logs": []
 }
